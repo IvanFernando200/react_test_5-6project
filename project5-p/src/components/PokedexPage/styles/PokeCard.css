@@ -1,0 +1,91 @@
+.card {
+  background-color: aqua;
+  width: 100%;
+  max-width: 25em;
+  border: 0.5em solid #ccc;
+  border-radius: 0.8em;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.card__header {
+  background-color: blueviolet;
+  width: 100%;
+  aspect-ratio: 2;
+  position: relative;
+  border-radius: 0.4em;
+}
+.card__img {
+  position: relative;
+  width: 50%;
+  top: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.card__principal {
+  margin-top: 2.2em;
+}
+.card__name {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+
+.card__types {
+  --gap-types: 0.7em;
+  display: flex;
+  justify-content: center;
+  gap: 0.3em;
+  gap: var(--gap-types);
+}
+
+.card__type:not(:nth-child(1))::before {
+  content: "/";
+  padding-right: var(--gap-types);
+}
+.card__hr {
+  --margin-y: 1em;
+  margin-top: var(--margin-y);
+  margin-bottom: var(--margin-y);
+  border-top: 1px solid #ccc5;
+  margin-inline: 2em;
+}
+.card__stats {
+  padding: 1em 1em 2em;
+}
+.card__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1em;
+}
+.card__stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  align-items: center;
+}
+.card__stat__label {
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+.card__stat__value {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.color-electric {
+  background-color: hsl(60, 87%, 50%);
+}
+.color-water {
+  background-color: hsl(240, 100%, 38%);
+}
+.color-fire {
+  background-color: hsl(22, 100%, 46%);
+}
+.color-grass {
+  background-color: hsl(120, 100%, 40%);
+}
+.color-bug {
+  background-color: hsl(0, 3%, 41%);
+}

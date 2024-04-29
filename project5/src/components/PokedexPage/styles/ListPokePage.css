@@ -1,0 +1,8 @@
+.selectList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin: 1em;
+  justify-content: center;
+  background-color: rgb(217, 247, 247);
+}

@@ -1,0 +1,29 @@
+.form {
+  text-align: center;
+}
+.form__input,
+.form__btn {
+  padding: 1em;
+  box-shadow: 2px 2px 5px #000;
+  padding: 0.8em;
+}
+
+.form__input {
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  border-radius: 0.5em 0 0 0.5em;
+  padding-left: 1.5em;
+}
+
+.form__btn {
+  background: rgb(228, 18, 18);
+  color: #f5f5f5;
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+@media screen and (min-width: 700px) {
+  .form__input,
+  .form__btn {
+    font-size: 1.5em;
+  }
+}

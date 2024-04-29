@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+p,
+ul,
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+input,
+button,
+select {
+  font-family: inherit;
+}

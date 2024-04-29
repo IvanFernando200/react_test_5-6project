@@ -1,0 +1,22 @@
+.app {
+  height: 100dvh;
+  min-width: 350px;
+  width: 100dvw;
+  background-color: rgb(217, 247, 247);
+}
+.gap-page {
+  gap: 0.5rem;
+}
+.gap-page li {
+  padding: 0.4em 0.7em;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(140, 3, 3);
+  &:hover {
+    filter: brightness(2);
+  }
+}
+
+.gap-page .active-page {
+  background-color: blueviolet;
+}

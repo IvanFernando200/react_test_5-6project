@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(39, 36, 80);
+  background: #f3fcfb;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  background-color: rgb(217, 247, 247);
+}
+h1,
+h2,
+h3,
+p,
+ul,
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
+input,
+button,
+select {
+  font-family: inherit;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+input {
+  border: none;
+}
